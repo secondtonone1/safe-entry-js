@@ -1,0 +1,18 @@
+{
+  "name": "safe-entry-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "entry": "node index.js test entry",
+    "entry-sandbox": "node index.js sandbox entry"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "node-jose": "^1.1.4",
+    "uuid": "^8.1.0"
+  }
+}
